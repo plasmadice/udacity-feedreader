@@ -2,7 +2,7 @@
 This project demonstrates Jasmine and it's testing capabilities. I've written several tests that will pass or fail depending on certain conditions.
 
 ## How it Works
-Simply open index.html to start. The skeleton is provided by Udacity and is a functional RSS Feedreader. The list below (and Jasmine itself) give you an idea on what changes would cause a test to fail.
+Simply open index.html to start. The skeleton is provided by Udacity and is a functional RSS Feedreader. The list below (and Jasmine itself) give you an idea on what changes would cause a test to fail. Check out [Jasmine](https://jasmine.github.io/index.html) for the documentation.
 
 ### So What is Jasmine Checking For?
 1. Checking if **allFeeds** exists
