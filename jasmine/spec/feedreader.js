@@ -121,7 +121,7 @@ $(function() {
         });
         
         it('contains at least one entry', () => {
-            expect($('.entry-link').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
 
