@@ -136,15 +136,18 @@ $(function() {
         let oldContent;
 
         beforeEach((done) => {
-            /* grabs link of first entry and stores it to check later*/
-            oldContent = $('.entry-link')[0].href;
+            /* grabs html of first entry and stores it to check later
+             * then loads a different feed
+             */
+            oldContent = $('.feed .entry').html();
             loadFeed(2, () => {
                 done();
             });
         });
 
+        /* checks old html against new html */
         it('changes the feed when triggered', () => {
-            expect($('.entry-link')[0].href).not.toEqual(oldContent);
+            expect($('.feed .entry').html()).not.toEqual(oldContent);
         });
     });
 
