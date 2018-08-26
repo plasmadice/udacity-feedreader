@@ -53,6 +53,7 @@ $(function() {
 
         it('have URLs', () => {
             expect(problemURL[0]).toBeUndefined();
+            expect(problemURL.length).toBe(0);
         });
 
         /* TODO: Write a test that loops through each feed
@@ -62,6 +63,7 @@ $(function() {
 
         it('have names', () => {
             expect(problemName[0]).toBeUndefined();
+            expect(problemName.length).toBe(0);
         });
     });
 
