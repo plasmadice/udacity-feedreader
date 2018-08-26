@@ -33,12 +33,6 @@ $(function() {
             });
         });
 
-        /* This afterEach may be pointless */
-        afterEach(() => {
-            problemURL = [];
-            problemName = [];
-        });
-
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
          * empty. Experiment with this before you get started on
